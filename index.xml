@@ -6,9 +6,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
     <copyright>山文.本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Wed, 02 Sep 2020 16:00:16 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 15:45:17 +0800</lastBuildDate>
     
         <atom:link href="https://xian-x.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>hugo搭建GitHub博客步骤</title>
+        <link>https://xian-x.github.io/posts/blog-buildstep/</link>
+        <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
+        
+        <guid>https://xian-x.github.io/posts/blog-buildstep/</guid>
+        <description>山文 https://xian-x.github.io/posts/blog-buildstep/ -&lt;h2 id=&#34;1软件安装&#34;&gt;1.软件安装&lt;/h2&gt;
+&lt;h5 id=&#34;11-git&#34;&gt;1.1 git&lt;/h5&gt;
+&lt;h5 id=&#34;12-hugo&#34;&gt;1.2 hugo&lt;/h5&gt;
+- https://xian-x.github.io/posts/blog-buildstep/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
+        </item>
     
     
     

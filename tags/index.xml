@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
     <copyright>山文.本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Wed, 02 Sep 2020 16:00:16 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 15:45:17 +0800</lastBuildDate>
     
 	<atom:link href="https://xian-x.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,16 +15,25 @@
     <item>
       <title>git</title>
       <link>https://xian-x.github.io/tags/git/</link>
-      <pubDate>Wed, 02 Sep 2020 16:00:16 +0800</pubDate>
+      <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
       
       <guid>https://xian-x.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>hugo</title>
+      <link>https://xian-x.github.io/tags/hugo/</link>
+      <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
+      
+      <guid>https://xian-x.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>博客搭建</title>
       <link>https://xian-x.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Wed, 02 Sep 2020 16:00:16 +0800</pubDate>
+      <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
       
       <guid>https://xian-x.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description></description>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on 山文</title>
+    <link>https://xian-x.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on 山文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hant</language>
+    <copyright>山文.本站遵循 CC-BY-NC 4.0 协议</copyright>
+    <lastBuildDate>Fri, 04 Sep 2020 15:45:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://xian-x.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo搭建GitHub博客步骤</title>
+      <link>https://xian-x.github.io/posts/blog-buildstep/</link>
+      <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
+      
+      <guid>https://xian-x.github.io/posts/blog-buildstep/</guid>
+      <description>1.软件安装 1.1 git 1.2 hugo </description>
+    </item>
+    
+  </channel>
+</rss>
