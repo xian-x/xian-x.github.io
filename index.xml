@@ -5,7 +5,7 @@
     <description>Recent content on 山文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
-    <copyright>This is a customized copyright.</copyright>
+    <copyright>山文.本站遵循 CC-BY-NC 4.0 协议</copyright>
     <lastBuildDate>Wed, 02 Sep 2020 16:00:16 +0800</lastBuildDate>
     
         <atom:link href="https://xian-x.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -70,7 +70,20 @@
 &lt;p&gt;新建git忽略清单文件：.gitignore  将不需要添加到缓存区的文件名字写在里面&lt;/p&gt;
 &lt;p&gt;​&lt;/p&gt;
 &lt;p&gt;​&lt;/p&gt;
-- https://xian-x.github.io/posts/git-1/ - This is a customized copyright.</description>
+- https://xian-x.github.io/posts/git-1/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>关于</title>
+        <link>https://xian-x.github.io/about/</link>
+        <pubDate>Tue, 01 Sep 2020 14:36:59 +0800</pubDate>
+        
+        <guid>https://xian-x.github.io/about/</guid>
+        <description>山文 https://xian-x.github.io/about/ -&lt;p&gt;&lt;code&gt;关于页面测试&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;山雨欲来风满楼&lt;/p&gt;
+- https://xian-x.github.io/about/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
         </item>
     
     
