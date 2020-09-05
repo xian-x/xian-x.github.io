@@ -6,9 +6,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hant</language>
     <copyright>山文.本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Fri, 04 Sep 2020 15:45:17 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 19:29:28 +0800</lastBuildDate>
     
         <atom:link href="https://xian-x.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>hugo搭建GitHub博客过程中遇到的问题及解决方法</title>
+        <link>https://xian-x.github.io/posts/blog-buildproblem/</link>
+        <pubDate>Sat, 05 Sep 2020 19:29:28 +0800</pubDate>
+        
+        <guid>https://xian-x.github.io/posts/blog-buildproblem/</guid>
+        <description>山文 https://xian-x.github.io/posts/blog-buildproblem/ -- https://xian-x.github.io/posts/blog-buildproblem/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
+        </item>
     
     
     
@@ -18,9 +29,92 @@
         <pubDate>Fri, 04 Sep 2020 15:45:17 +0800</pubDate>
         
         <guid>https://xian-x.github.io/posts/blog-buildstep/</guid>
-        <description>山文 https://xian-x.github.io/posts/blog-buildstep/ -&lt;h2 id=&#34;1软件安装&#34;&gt;1.软件安装&lt;/h2&gt;
+        <description>山文 https://xian-x.github.io/posts/blog-buildstep/ -&lt;p&gt;&lt;code&gt;（本文仅为个人学习记录，如侵删）&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1软件安装&#34;&gt;1.软件安装&lt;/h2&gt;
 &lt;h5 id=&#34;11-git&#34;&gt;1.1 git&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;参考地址：https://blog.csdn.net/weixin_44950987/article/details/102619708&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		要选的东西挺多    不懂该怎么选 一直点的next  使用过程暂时没有碰到有啥问题 环境变量无需自行设置&lt;/p&gt;
+&lt;p&gt;​		安装完后 win+r 输入cmd 回车启动cmd  在cmd窗口输入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;回车出现版本号即安装成功&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h5 id=&#34;12-hugo&#34;&gt;1.2 hugo&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;参考地址：https://blog.cuixx.com/1726.html&lt;/code&gt;&lt;/p&gt;
+&lt;h6 id=&#34;121-下载hugo并解压&#34;&gt;1.2.1 下载hugo并解压&lt;/h6&gt;
+&lt;p&gt;下载地址： &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
+&lt;h6 id=&#34;122-创建文件夹-配置文件&#34;&gt;1.2.2 创建文件夹 配置文件&lt;/h6&gt;
+&lt;p&gt;C:\Hugo&lt;/p&gt;
+&lt;p&gt;C:\Hugo\bin&lt;/p&gt;
+&lt;p&gt;C:\Hugo\Sites&lt;/p&gt;
+&lt;p&gt;解压后的文件 hugo.exe 复制到 C:\Hugo\bin 文件夹下 其他文件不用管&lt;/p&gt;
+&lt;h6 id=&#34;123-设置环境变量&#34;&gt;1.2.3 设置环境变量&lt;/h6&gt;
+&lt;p&gt;右键此电脑&amp;ndash;&amp;gt;属性&amp;ndash;&amp;gt;高级设置&amp;ndash;&amp;gt;环境变量&amp;ndash;&amp;gt;找到系统变量中的Path双击&amp;ndash;&amp;gt;新建  粘贴 C:\Hugo\bin &amp;ndash;&amp;gt;确定&lt;/p&gt;
+&lt;h6 id=&#34;124-检查&#34;&gt;1.2.4 检查&lt;/h6&gt;
+&lt;p&gt;cmd窗口输入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;出现hugo版本即配置成功&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;G:%5Cblog%5Cstatic%5Cimg%5Chugo-version.PNG&#34; alt=&#34;hugo-version&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2本地生成网页&#34;&gt;2.本地生成网页&lt;/h2&gt;
+&lt;p&gt;任意盘符下右键点击空白处&amp;ndash;&amp;gt;选择Git Bash Here&lt;/p&gt;
+&lt;h5 id=&#34;生成根目录&#34;&gt;生成根目录:&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;hugo new site blog
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;blog为根目录名字  可自行起名&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd blog 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;​		&lt;strong&gt;切换到blog文件夹下&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;下载hugo博客主题&#34;&gt;下载hugo博客主题&lt;/h5&gt;
+&lt;p&gt;下载地址： &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;两种方法选其一即可：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下载拷贝到blog/themes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;git命令 &lt;strong&gt;根目录blog文件夹下执行&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/Fastbyte01/KeepIt.git themes/keepIt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;keepIt为主题名 网址为主题下载地址  themes/keepIt为下载目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;下载完后将exampleSit文件夹下的content文件夹和config文件拷贝到blog根目录下 修改config文件的内容&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;生成博客文件&#34;&gt;生成博客文件：&lt;/h5&gt;
+&lt;p&gt;​		&lt;strong&gt;根目录blog文件夹下执行&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo new posts/blog1.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 content/posts文件夹下生成blog1.md文件 使用Typora打开编辑博客内容&lt;/p&gt;
+&lt;p&gt;默认为draft: true 可删除&lt;/p&gt;
+&lt;h5 id=&#34;预览&#34;&gt;预览：&lt;/h5&gt;
+&lt;p&gt;​		&lt;strong&gt;根目录blog文件夹下执行&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;浏览器中输入 http://localhost:1313即可看到本地的博客页面    可ctrl+c停止服务器运行&lt;/p&gt;
+&lt;h5 id=&#34;生成本地页面&#34;&gt;生成本地页面&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;根目录blog文件夹下多了个public文件夹&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd public
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;切换到public文件夹下&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3本地页面上传到github&#34;&gt;3.本地页面上传到GitHub&lt;/h2&gt;
+&lt;h5 id=&#34;github创建仓库&#34;&gt;GitHub创建仓库&lt;/h5&gt;
+&lt;p&gt;在GitHub上创建一个Repository，命名为：github的username.github.io&lt;/p&gt;
+&lt;h5 id=&#34;生成本地仓库&#34;&gt;生成本地仓库&lt;/h5&gt;
+&lt;p&gt;​		&lt;strong&gt;public文件夹下&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;提交到暂存区&#34;&gt;提交到暂存区&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;git add .
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;提交到本地仓库&#34;&gt;提交到本地仓库&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;git commit -m 注释
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;注释必须要写 不然无法提交&lt;/code&gt;&lt;/p&gt;
+&lt;h5 id=&#34;远程仓库起别名&#34;&gt;远程仓库起别名&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;git remote add origin https://github.com/xian-x/xian-x.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;origin为起的别名 可自行起名&lt;/p&gt;
+&lt;p&gt;后面xian-x为我的GitHub名 替换一下即可   &lt;strong&gt;后面.git不要漏掉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推送到远程仓库&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-u表示记住推动地址及分支，下次推送只需输入git push即可&lt;/p&gt;
+&lt;p&gt;origin为仓库地址的别名 master为仓库分支&lt;/p&gt;
+&lt;p&gt;输入GitHub用户名和密码即可&lt;/p&gt;
+&lt;h5 id=&#34;查看博客&#34;&gt;查看博客&lt;/h5&gt;
+&lt;p&gt;GitHub用户名.github.io即为博客地址&lt;/p&gt;
 - https://xian-x.github.io/posts/blog-buildstep/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
         </item>
     
@@ -97,6 +191,7 @@
         <guid>https://xian-x.github.io/about/</guid>
         <description>山文 https://xian-x.github.io/about/ -&lt;p&gt;&lt;code&gt;关于页面测试&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;山雨欲来风满楼&lt;/p&gt;
+&lt;p&gt;​	建立博客纪念&lt;/p&gt;
 - https://xian-x.github.io/about/ - 山文.本站遵循 CC-BY-NC 4.0 协议</description>
         </item>
     
